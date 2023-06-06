@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Clima hoy</title>
+</head>
+<body>
+    
+    <header class=" bg-info p-4">
+        <h1 class="text-center">Clima hoy 🌦️</h1>
+        
+    </header>
+
+    <section class="card m-2 p-2">
+        <h2 class="card-header">Temperaturas</h2>
+        <div class="card-body">
+            <p> <strong>Temperatura maxima:</strong> <span id="temp-max"></span>°C</p>
+            <p ><strong>Temperatura minima:</strong> <span id="temp-min"></span>°C</p>
+            <p ><strong>Temperatura actual:</strong> <span id="temp-actual"></span>°C</p>
+            <p ><strong>Sensacion Termica:</strong> <span id="sensacion"></span>°C</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="logica.js"></script>
+</body>
+</html>
